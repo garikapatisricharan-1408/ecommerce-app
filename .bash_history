@@ -55,3 +55,52 @@ ll
 cd backend
 ll
 nano backend/server.js
+ll
+cd ecommerce-ap
+cd ecommerce-app
+nano backend/server.js
+ll
+nano frontend/src/App.jsx
+nano backend/routes/authRoutes.js
+nano backend/routes/productRoutes.js
+npm install express cors dotenv sequelize mysql2 bcryptjs jsonwebtoken nodemon
+sudo dnf update -y
+sudo dnf install -y nodejs npm
+npm install express cors dotenv sequelize mysql2 bcryptjs jsonwebtoken nodemon
+curl -fsSL https://rpm.nodesource.com/setup_18.x | sudo bash -
+sudo dnf install -y nodejs
+cd backend
+npm init -y
+rm -f package.json
+npm init -y
+npm install express cors dotenv sequelize mysql2 bcryptjs jsonwebtoken nodemon
+cat package.json
+node server.js
+nano .env
+mysql -u root -p
+node server.js
+CREATE DATABASE ecommerce;
+CREATE USER 'ecomuser'@'localhost' IDENTIFIED BY 'password123';
+GRANT ALL PRIVILEGES ON ecommerce.* TO 'ecomuser'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+nano .env
+node server.js
+mysql
+nano .env
+node server.js
+cd
+git --version
+sudo yum install git -y
+git init
+.gitignore
+nano .gitignore
+
+ls -la
+.gitignore
+touch .gitignore
+nano .gitignore
+git add .
+git commit -m "Initial ecommerce website"
+git remote add origin https://github.com/garikapatisricharan-1408/ecommerce-app.git
+git branch -M main
